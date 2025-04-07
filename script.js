@@ -1,3 +1,11 @@
+function toggleMode() {
+    const body = document.body;
+
+    // Toggle between light-mode and dark-mode classes
+    body.classList.toggle("dark-mode");
+    body.classList.toggle("light-mode");
+  }
+
 // Function to append values to the input field
 function appendValue(value) {
     document.getElementById("result").value += value;
